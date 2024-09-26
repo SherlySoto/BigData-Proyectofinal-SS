@@ -1,0 +1,9 @@
+{
+	"name": "sherlysotobustillos",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c3d89624-27ac-4d6c-aab7-8f93fa8f1b4f",
+		"tenantId": "f365522e-4446-433b-93ed-13355db8cd58"
+	}
+}
