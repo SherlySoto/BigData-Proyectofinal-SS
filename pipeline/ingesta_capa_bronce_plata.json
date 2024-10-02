@@ -1,5 +1,5 @@
 {
-	"name": "ingesta_capa_brionce_plata",
+	"name": "ingesta_capa_bronce_plata",
 	"properties": {
 		"description": "ingesta de arcgivos desde data bronce hacia capa plata",
 		"activities": [
