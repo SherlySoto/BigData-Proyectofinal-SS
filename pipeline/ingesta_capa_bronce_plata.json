@@ -4,7 +4,7 @@
 		"description": "ingesta de arcgivos desde data bronce hacia capa plata",
 		"activities": [
 			{
-				"name": "Notebook1",
+				"name": "Ingesta_capa_bronce_plata",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -14,7 +14,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/sherlysotob@gmail.com/Ingesta_capa_bronce_a_capa_plata"
+				},
+				"linkedServiceName": {
+					"referenceName": "Capa_bronce_plata",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
