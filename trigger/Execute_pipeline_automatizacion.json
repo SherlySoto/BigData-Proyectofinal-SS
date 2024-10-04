@@ -1,0 +1,26 @@
+{
+	"name": "Execute_pipeline_automatizacion",
+	"properties": {
+		"description": "Trigger para ejecucion cosntante",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline_automatizacion",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 2,
+				"startTime": "2024-10-01T01:51:00",
+				"endTime": "2024-10-06T06:45:00",
+				"timeZone": "UTC-11"
+			}
+		}
+	}
+}
